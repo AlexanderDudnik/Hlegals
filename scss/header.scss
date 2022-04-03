@@ -1,0 +1,35 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
+.main{
+	flex-grow: 1;
+}
+
+body {
+    font: 14px/1.2 "ForeverBrush", "ProximaNova", "Roboto", sans-serif; 
+    color: #999;    
+}
+
+img {
+    max-width: 100%;       
+    height: auto;         
+}
